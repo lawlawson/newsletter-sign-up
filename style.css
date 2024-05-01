@@ -7,3 +7,15 @@
   --clr-grey: hsl(231, 7%, 60%);
   --clr-white: hsl(0, 0%, 100%);
 }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  place-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.columns {
+  display: flex;
+}
