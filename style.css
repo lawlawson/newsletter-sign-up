@@ -72,6 +72,15 @@ form input {
   width: 100%;
   background-color: var(--clr-dark-slate-grey);
   color: var(--clr-white);
+  cursor: pointer;
+  outline: none;
+}
+
+.subscribe-button:hover {
+  background-color: var(--clr-tomato);
+  box-shadow: 2px 4px 6px var(--clr-tomato);
+  outline: none;
+  border: none;
 }
 
 .thanks-subscribing {
