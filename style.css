@@ -15,6 +15,7 @@ body {
   align-items: center;
   font-family: 'Roboto', sans-serif;
   background-color: var(--clr-charcoal-grey);
+  font-size: 16px;
 }
 
 .columns {
@@ -23,15 +24,54 @@ body {
 
 .container {
   width: 928px;
-  height: 641px;
+  height: 540px;
   background-color: var(--clr-white);
   border-radius: 14px;
   padding: 20px 20px;
   margin: auto 0;
 }
 
+h1 {
+  color: var(--clr-dark-slate-grey);
+  margin: 20px 0;
+}
+
 .stay-updated {
-  /* margin: auto 0; */
+  padding: 27px 45px;
+}
+
+.stay-updated p {
+  margin: 20px 0;
+}
+
+.stay-updated ul {
+  margin: 15px 0;
+  list-style: none;
+  padding: 0;
+}
+
+.stay-updated ul li {
+  padding-left: 30px;
+  background: url(/assets/images/icon-list.svg) no-repeat left center;
+  background-size: 20px;
+  margin-bottom: 15px;
+}
+
+form input {
+  width: 100%;
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin-top: 8px;
+  border: 1px solid var(--clr-grey);
+}
+
+.subscribe-button {
+  margin-top: 30px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: var(--clr-dark-slate-grey);
+  color: var(--clr-white);
 }
 
 .thanks-subscribing {
