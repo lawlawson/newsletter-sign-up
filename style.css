@@ -19,7 +19,7 @@ body {
 }
 
 .columns {
-  display: flex;
+  display: none;
 }
 
 .container {
@@ -83,6 +83,17 @@ form input {
   border: none;
 }
 
+.container-sub {
+  width: 80%;
+}
+
 .thanks-subscribing {
-  display: none;
+  display: block;
+  margin-top: 200px;
+}
+
+.dismiss-button {
+  padding: 20px 10px;
+  border-radius: 10px;
+  width: 100%;
 }
