@@ -24,10 +24,9 @@ body {
 
 .container {
   width: 928px;
-  height: 540px;
   background-color: var(--clr-white);
   border-radius: 14px;
-  padding: 20px 20px;
+  padding: 20px;
   margin: auto 0;
 }
 
@@ -55,6 +54,10 @@ h1 {
   background: url(/assets/images/icon-list.svg) no-repeat left center;
   background-size: 20px;
   margin-bottom: 15px;
+}
+
+form {
+  margin-top: 40px;
 }
 
 form input {
@@ -109,4 +112,18 @@ form input {
 .error-label label,
 .error-label p {
   margin: 0;
+}
+
+.error-label label {
+  font-weight: 800;
+}
+
+.error-label p {
+  color: red;
+  font-weight: 700;
+}
+
+#email {
+  background-color: pink;
+  border: 1px solid salmon;
 }
