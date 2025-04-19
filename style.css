@@ -19,7 +19,7 @@ body {
 }
 
 .columns {
-  display: none;
+  display: flex;
 }
 
 .container {
@@ -88,7 +88,7 @@ form input {
 }
 
 .thanks-subscribing {
-  display: block;
+  display: none;
   margin-top: 200px;
 }
 
@@ -96,4 +96,17 @@ form input {
   padding: 20px 10px;
   border-radius: 10px;
   width: 100%;
+}
+
+.error-label {
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.error-label label,
+.error-label p {
+  margin: 0;
 }
