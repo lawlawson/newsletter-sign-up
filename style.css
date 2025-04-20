@@ -90,6 +90,27 @@ form input {
   /* width: 80%; */
 }
 
+.check-image {
+  margin: 30px 0;
+}
+
+.container-sub h2 {
+  font-size: 65px;
+  line-height: 60px;
+  color: navy;
+}
+
+.container-sub p {
+  margin: 30px 0;
+}
+
+.dismiss-button {
+  background-color: navy;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
 .thanks-subscribing {
   display: block;
   width: 520px;
@@ -100,6 +121,7 @@ form input {
   padding: 20px 10px;
   border-radius: 10px;
   width: 100%;
+  cursor: pointer;
 }
 
 .error-label {
