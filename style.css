@@ -19,7 +19,7 @@ body {
 }
 
 .columns {
-  display: flex;
+  display: none;
 }
 
 .container {
@@ -87,12 +87,13 @@ form input {
 }
 
 .container-sub {
-  width: 80%;
+  /* width: 80%; */
 }
 
 .thanks-subscribing {
-  display: none;
-  margin-top: 200px;
+  display: block;
+  width: 520px;
+  margin: 0 auto;
 }
 
 .dismiss-button {
@@ -119,7 +120,7 @@ form input {
 }
 
 .error-label p {
-  color: red;
+  /* color: red; */
   font-weight: 700;
 }
 
